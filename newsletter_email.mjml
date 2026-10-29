@@ -15,28 +15,36 @@
       <!-- Header Image -->
       <mj-section padding="20px 0">
         <mj-column>
-          <mj-image src="images/Healthy Wealthy Skinny.png" alt="healthy-wealthy-skinny" align="center" padding="0" />
+          <mj-image src="https://i.postimg.cc/kMVfH0hr/text-italic-square-svgrepo-com.jpg" alt="healthy-wealthy-skinny" align="center" padding="0" />
         </mj-column>
       </mj-section>
 
       <!-- Intro Section -->
       <mj-section padding="10px 0">
         <mj-column>
-          <mj-text font-size="16px" font-weight="bold">What's up</mj-text>
-          <mj-text>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt recusandae ratione in veritatis maxime hic facere autem id consectetur tenetur!</mj-text>
-          <mj-text>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non enim quo quia molestiae. Possimus eaque excepturi voluptatibus, voluptas autem praesentium soluta, quibusdam corporis, iure libero error impedit commodi ut ullam?</mj-text>
-          <mj-text>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, quo!</mj-text>
+          <mj-text font-size="16px" font-weight="bold">What's up?</mj-text>
+          <mj-text>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Nesciunt recusandae ratione in veritatis maxime hic facere autem id consectetur tenetur!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non enim quo quia molestiae.
+            Possimus eaque excepturi voluptatibus, voluptas autem praesentium soluta, quibusdam corporis, iure libero error impedit commodi ut ullam?
+          </mj-text>
+          <!-- <mj-text>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non enim quo quia molestiae. Possimus eaque excepturi voluptatibus, voluptas autem praesentium soluta, quibusdam corporis, iure libero error impedit commodi ut ullam?</mj-text>
+          <mj-text>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, quo!</mj-text> -->
         </mj-column>
       </mj-section>
 
       <!-- Subscribe, Like and Comment Section -->
       <mj-section padding="10px 0">
         <mj-column>
-          <mj-text font-size="16px" font-weight="bold">Subscribe, like and comment</mj-text>
-          <mj-text>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium nihil ex a esse magni maiores, atque minus maxime blanditiis obcaecati.</mj-text>
-          <mj-text>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum, illo.</mj-text>
-          <mj-text>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum, illo.</mj-text>
-          <mj-text>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum, illo.</mj-text>
+          <mj-text font-size="16px" font-weight="bold">What's Trending?</mj-text>
+          <mj-text>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+            Praesentium nihil ex a esse magni maiores, atque minus maxime blanditiis obcaecati.
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum, illo.
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum, illo.
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum, illo.
+          </mj-text>
           <mj-text>
             <ol>
               <li>Lorem, ipsum.</li>
@@ -46,9 +54,13 @@
               <li>Lorem, ipsum.</li>
             </ol>
           </mj-text>
-          <mj-text>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat, recusandae!</mj-text>
-          <mj-text>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat, recusandae!</mj-text>
-          <mj-image href="https://www.google.com" src="images/subscribe.png" alt="subscribe-button" align="left" padding="10px 0" />
+          <mj-text>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat,
+            recusandae! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat,
+            recusandae!
+            </mj-text>
+          
+          <mj-image src="https://i.postimg.cc/BZ8Mzrw9/accelerate-svgrepo-com.jpg" alt="rocket-svg" padding="0"/>
         </mj-column>
       </mj-section>
 
@@ -68,16 +80,16 @@
       </mj-section>
 
       <!-- Feature Image -->
-      <mj-section padding="10px 0">
+      <!-- <mj-section padding="10px 0">
         <mj-column>
-          <mj-image src="images/shawn and doggy.jpg" alt="shawn" padding="0" />
+          <mj-image src="images/accelerate-svgrepo-com.svg" alt="rocket-svg" padding="0"/>
         </mj-column>
-      </mj-section>
+      </mj-section> -->
 
       <!-- Footer -->
-      <mj-section padding="20px 0 30px 0">
+      <mj-section padding="20px 0 30px 0" background-color="#cecdcf">
         <mj-column>
-          <mj-text align="center" font-size="12px" color="#666666">
+          <mj-text align="center" font-size="12px" color="#000000">
             <a href="#" style="color: #666666; text-decoration: underline; margin-right: 15px;">Unsubscribe</a>
             <a href="#" style="color: #666666; text-decoration: underline; margin-right: 15px;">Update profile</a>
             <span>123 Anywhere USA</span>

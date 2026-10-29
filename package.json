@@ -1,0 +1,7 @@
+{
+  "type": "module",
+  "dependencies": {
+    "mjml": "^5.4.1",
+    "nodemailer": "^10.2.1"
+  }
+}
