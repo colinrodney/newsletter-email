@@ -15,7 +15,7 @@
       <!-- Header Image -->
       <mj-section padding="20px 0">
         <mj-column>
-          <mj-image src="https://i.postimg.cc/kMVfH0hr/text-italic-square-svgrepo-com.jpg" alt="healthy-wealthy-skinny" align="center" padding="0" />
+          <mj-image src="https://i.postimg.cc/htQ9bYcg/modified-text-italic-square-svgrepo-com.jpg" alt="healthy-wealthy-skinny" align="center" padding="20px" />
         </mj-column>
       </mj-section>
 
@@ -60,7 +60,7 @@
             recusandae!
             </mj-text>
           
-          <mj-image src="https://i.postimg.cc/BZ8Mzrw9/accelerate-svgrepo-com.jpg" alt="rocket-svg" padding="0"/>
+          <mj-image src="https://i.postimg.cc/MZ40Mx8w/modified-accelerate-svgrepo-com.jpg" alt="rocket-svg" padding="20px"/>
         </mj-column>
       </mj-section>
 
