@@ -158,16 +158,23 @@ async function sendTestEmail() {
   });
 
   // 5. Send the compiled HTML
+  // let info = await transporter.sendMail({
+  //   from: '"Sender Name" <sender@example.com>',
+  //   to: "receiver@example.com",
+  //   subject: "Testing MJML Layout",
+  //   html: stringHtml, // Pass the compiled HTML here
+  // });
+
   let info = await transporter.sendMail({
     from: '"Sender Name" <sender@example.com>',
-    to: "receiver@example.com",
+    to: "HNEWb18a017accf2c4249613af@send.emltest.uk",
     subject: "Testing MJML Layout",
     html: stringHtml, // Pass the compiled HTML here
   });
 
   // 6. Output the Ethereal web preview URL
-  console.log("Message sent: %s", info.messageId);
-  console.log("Preview URL: %s", nodemailer.getTestMessageUrl(info));
+  // console.log("Message sent: %s", info.messageId);
+  // console.log("Preview URL: %s", nodemailer.getTestMessageUrl(info));
 }
 
 sendTestEmail();
