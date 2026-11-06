@@ -1,0 +1,250 @@
+<mjml>
+  <mj-head>
+    <mj-title>Hello MJML</mj-title>
+    <mj-font name="Roboto" href="https://googleapis.com" />
+    <mj-attributes>
+      <mj-all font-family="Roboto, Helvetica, sans-serif" />
+    </mj-attributes>
+    <mj-style>
+      /* Prevent dark mode inversion bleeding through PNG transparency */
+      @media (prefers-color-scheme: dark) {
+        .dark-bg-fix {
+          background-color: #E7E7F1 !important;
+        }
+        img {
+          mix-blend-mode: normal !important;
+        }
+      }
+    </mj-style>
+  </mj-head>
+
+  <!-- Email Body -->
+  <mj-body background-color="#E7E7F1">
+    
+    <!-- Hero / Header Section -->
+    <mj-wrapper background-color="#E7E7F1">
+      
+      <!-- Replaced <mj-hero> with a robust table-backed section for Outlook VML safety -->
+      <mj-section background-color="#E7E7F1">
+        <mj-column width="100%">
+          <mj-image 
+            src="https://i.postimg.cc/Dzs54yNk/internet-hero-image-MODIFIED.png" 
+            alt="Hero Banner" 
+            width="600px" 
+            padding="0px" />
+        </mj-column>
+      </mj-section>
+      
+      <!-- INTERNET BRUNCH -->
+      <mj-section background-color="#E7E7F1" padding="0px">
+        <mj-column>
+          <!-- <mj-image src="https://i.postimg.cc/J04b852y/newsletter-internet-header-41a90663-29d3-7bc3-c865-103cbc996347.png" width="550px"></mj-image> -->
+          <!-- <mj-image src="https://i.postimg.cc/CLgDVc1R/Internet-Brunch-Header-off-white-background.png" width="550px"></mj-image> -->
+          <mj-image src="https://i.postimg.cc/bwMpN3Xv/Internet-Brunch-Header-white-background-MODIFIED.png" width="550px"></mj-image>
+        </mj-column>
+      </mj-section>
+      
+      <!-- SECTION DIVISOR -->
+      <mj-section background-color="#E7E7F1" padding-top="40px" padding-bottom="20px">
+        <mj-column>
+          <mj-image src="https://i.postimg.cc/LXVzGbN1/second-divisor-b9592cdf-618b-1e76-af09-433bb4f8e425.png" width="550px"></mj-image>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <!-- Content / Articles Section -->
+    <mj-wrapper background-color="#E7E7F1">
+      <!-- Section 1 -->
+      <mj-section background-color="#E7E7F1">
+        <mj-group>
+          <!-- Section header text-->
+          <mj-column width="100%">
+            <mj-text color="#000000">
+              <p>Sed ut perspiciatis</p>
+            </mj-text>
+          </mj-column>
+          <!-- Image -->
+          <mj-column width="50%">
+            <mj-image 
+              alt="books"
+              src="https://i.postimg.cc/C5Lj0sQv/newsletter-web-culture-f270c3db-4a8e-edbd-1093-18e22fb0ec44.png"
+              width="250px">
+            </mj-image>
+          </mj-column>
+          <!-- Text right-->
+          <mj-column width="50%">
+            <mj-text color="#000000">
+              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,</p>
+            </mj-text>
+          </mj-column>
+          <!-- Bullet points-->
+          <mj-column width="100%">
+            <mj-text color="#000000">
+              <ul>
+                <li>Sed ut perspiciatis</li>
+                <li>Sed ut perspiciatis</li>
+                <li>Sed ut perspiciatis</li>
+              </ul>
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+
+      <!-- Section 2 -->
+      <mj-section background-color="#E7E7F1">
+        <mj-group>
+          <!-- Section header text-->
+          <mj-column width="100%">
+            <mj-text color="#000000">
+              <p>Sed ut perspiciatis</p>
+            </mj-text>
+          </mj-column>
+          <!-- Image -->
+          <mj-column width="50%">
+            <mj-image 
+              alt="books"
+              src="https://i.postimg.cc/prXDvJ6q/newsletter-entertainment-img-e8b93128-d91c-4398-b563-ddf8983388f7.png"
+              width="250px">
+            </mj-image>
+          </mj-column>
+          <!-- Text right-->
+          <mj-column width="50%">
+            <mj-text color="#000000">
+              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,</p>
+            </mj-text>
+          </mj-column>
+          <!-- Bullet points-->
+          <mj-column width="100%">
+            <mj-text color="#000000">
+              <ul>
+                <li>Sed ut perspiciatis</li>
+                <li>Sed ut perspiciatis</li>
+                <li>Sed ut perspiciatis</li>
+              </ul>
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+
+      <!-- Section 3 -->
+      <mj-section background-color="#E7E7F1">
+        <mj-group>
+          <!-- Section header text-->
+          <mj-column width="100%">
+            <mj-text color="#000000">
+              <p>Sed ut perspiciatis</p>
+            </mj-text>
+          </mj-column>
+          <!-- Image -->
+          <mj-column width="50%">
+            <mj-image 
+              alt="books"
+              src="https://i.postimg.cc/C5Lj0sQv/newsletter-web-culture-f270c3db-4a8e-edbd-1093-18e22fb0ec44.png"
+              width="250px">
+            </mj-image>
+          </mj-column>
+          <!-- Text right-->
+          <mj-column width="50%">
+            <mj-text color="#000000">
+              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,</p>
+            </mj-text>
+          </mj-column>
+          <!-- Bullet points-->
+          <mj-column width="100%">
+            <mj-text color="#000000">
+              <ul>
+                <li>Sed ut perspiciatis</li>
+                <li>Sed ut perspiciatis</li>
+                <li>Sed ut perspiciatis</li>
+              </ul>
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+    </mj-wrapper>
+
+    <!-- Special Events / Birthdays -->
+    <mj-wrapper background-color="#E7E7F1">
+      <mj-section background-color="#E7E7F1">
+        <mj-group>
+          <mj-column width="50%">
+            <mj-image alt="divisor" src="https://i.postimg.cc/LXVzGbN1/second-divisor-b9592cdf-618b-1e76-af09-433bb4f8e425.png" width="250px"></mj-image>
+            <mj-text color="#000000">
+              <p>Sed ut perspiciatis</p>
+            </mj-text>
+            <mj-text color="#000000">
+              <ul>
+                <li>Sed ut perspiciatis</li>
+                <li>Sed ut perspiciatis</li>
+                <li>Sed ut perspiciatis</li>
+              </ul>
+            </mj-text>
+          </mj-column>
+
+          <mj-column width="50%">
+            <mj-image alt="divisor" src="https://i.postimg.cc/LXVzGbN1/second-divisor-b9592cdf-618b-1e76-af09-433bb4f8e425.png" width="250px"></mj-image>
+            <mj-text color="#000000">
+              <p>Sed ut perspiciatis</p>
+            </mj-text>
+            <mj-text color="#000000">
+              <ul>
+                <li>Sed ut perspiciatis</li>
+                <li>Sed ut perspiciatis</li>
+                <li>Sed ut perspiciatis</li>
+              </ul>
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+    </mj-wrapper>
+
+    <!-- Thanks for reading -->
+    <mj-wrapper background-color="#E7E7F1">
+      <mj-section background-color="#E7E7F1">
+        <mj-group>
+          <mj-column width="50%">
+            <mj-text font-size="36px" color="#000000">
+              <p>Thanks for reading</p>
+            </mj-text> 
+            <mj-image alt="share-this" src="https://i.postimg.cc/zB25b7p4/newsletter-share-This-ba592d7b-6bec-206f-fb79-8956b1d91d7e.png" width="250px">
+            </mj-image>
+          </mj-column>
+          <mj-column width="50%">
+            <mj-image alt="Newsletter-thanks-for-reading" src="https://i.postimg.cc/4NBk2Bzd/newsletter-thanks-for-reading-image-c3f6abb3-9685-877f-87ec-28c618576263.png" width="250px"></mj-image>
+            <mj-text color="#000000">
+              <p>Inspired by (xxx - ADD OTHER STUFF)</p>
+            </mj-text> 
+          </mj-column>
+        </mj-group>
+      </mj-section>
+    </mj-wrapper>
+
+    <!-- Big Spaceship -->
+    <mj-wrapper background-color="#E7E7F1">
+      <mj-section background-color="#E7E7F1">
+        <mj-group>
+          <mj-column width="100%"> 
+            <mj-image alt="big-spaceship" src="https://i.postimg.cc/qMjVDj25/newsletter-big-Spaceship-7446cf87-2dfa-79eb-7cb0-1cd569b3a5d7.png" width="550px">
+            </mj-image>
+            <mj-image alt="Divisor" src="https://i.postimg.cc/LXVzGbN1/second-divisor-b9592cdf-618b-1e76-af09-433bb4f8e425.png" padding="30px 0" width="550px">
+            </mj-image>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+    </mj-wrapper>
+
+    <!-- Footer -->
+    <mj-wrapper background-color="#E7E7F1">
+      <mj-section background-color="#E7E7F1">
+        <mj-group>
+          <mj-column width="100%"> 
+            <mj-text align="center" font-size="20px" color="#000000">
+              <p>Footer Section</p>
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+    </mj-wrapper>
+
+  </mj-body>
+</mjml>

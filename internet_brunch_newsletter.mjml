@@ -10,7 +10,7 @@
   <!-- Email Body -->
   <mj-body>
   <!-- Hero / Header Section -->
-  <mj-wrapper background-color="#E7E7F1">
+  <mj-wrapper>
     <mj-hero
     mode="fluid-height"
       background-width="600px"
