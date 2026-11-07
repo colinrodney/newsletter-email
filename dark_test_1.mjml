@@ -25,10 +25,19 @@
     <mj-wrapper background-color="#E7E7F1" padding="0px">
       
       <!-- Replaced <mj-hero> with a robust table-backed section for Outlook VML safety -->
-      <mj-section background-color="#E7E7F1" padding="20px 0">
+      <!-- <mj-section background-color="#E7E7F1" padding="20px 0">
         <mj-column width="100%">
           <mj-image 
             src="https://i.postimg.cc/1X5pSrjj/newsletter-hero-6d39823e-8630-749a-8ef2-f8cad5c55808.png" 
+            alt="Hero Banner" 
+            width="600px" 
+            padding="0px" />
+        </mj-column>
+      </mj-section> -->
+      <mj-section background-color="#E7E7F1" padding="20px 0">
+        <mj-column width="100%">
+          <mj-image 
+            src="https://i.postimg.cc/Dzs54yNk/internet-hero-image-MODIFIED.png" 
             alt="Hero Banner" 
             width="600px" 
             padding="0px" />
